@@ -1,3 +1,13 @@
+
+Intro to Docker
+
+working with create react app to create a react client
+creating a docker container using node:alpine and nginx
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
