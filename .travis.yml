@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t bdurb/docker-intro -f Dockerfile.dev .
+
+script:
+  - docker run bdurb/docker-intro npm run test -- --coverage
